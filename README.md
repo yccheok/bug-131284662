@@ -1,5 +1,7 @@
 In API 28, `EditText` will yield incorrect line spacing behavior, when dealing with non-English Unicode. 
 
+Same problem occurs regardless on whether you are using `androidx.appcompat.widget.AppCompatEditText` or `android.widget.EditText`
+
 Please see the following screenshot for API 28. 4th line is being "pushed down" by 3rd line which contains non-English Unicode.
 
 # API 28
